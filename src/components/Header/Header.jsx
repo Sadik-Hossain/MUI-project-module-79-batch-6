@@ -35,7 +35,7 @@ function Header(props) {
       <img
         width="124"
         height="44"
-        src="../../../public/logo.png"
+        src="/logo.png"
         alt=""
         style={{ marginTop: "1rem" }}
       />
@@ -79,12 +79,7 @@ function Header(props) {
             </IconButton>
 
             <Box sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
-              <img
-                width="128"
-                height="40"
-                src="../../../public/logo.png"
-                alt=""
-              />
+              <img width="128" height="40" src="/logo.png" alt="" />
             </Box>
 
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
